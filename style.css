@@ -1,0 +1,54 @@
+
+body{
+	font-family: sans-serif;
+	padding: 10px;
+}
+.jdul_green{
+	color: green;
+}
+
+.card{
+	padding: 20px;
+	margin: 20px;
+	border:3px solid #ccc;
+}
+
+.card-judul{
+	width: 190px;
+	border-bottom: 4px solid blue;
+}
+
+.col_md3{
+	width: 500px;
+	padding-right: 200px;
+	margin-right: 50px;
+}
+
+input[type=text],
+input[type=number], 
+input[type=date],
+input[type=email]{
+	width: 100%;
+	padding: 12px 10px;
+	margin: 8px 0;
+	display: inline-block;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=radio]{
+	background-color: red;
+	padding: 100px;
+}
+
+input[type=submit]{
+	width: 	200px;
+	background-color: green;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 20px;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;
+}
